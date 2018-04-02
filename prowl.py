@@ -33,7 +33,7 @@ def welcome():
         print ""
 welcome()
 
-response = requests.get('https://raw.githubusercontent.com/pickfordmatt/Prowl/master/Version.txt')
+response = requests.get('https://raw.githubusercontent.com/Sec-red/Prowl/master/Version.txt')
 html = response.text
 openfile = open('Version.txt', 'r')
 cversion = openfile.readline()
