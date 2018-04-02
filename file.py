@@ -175,7 +175,7 @@ def mangle_emails(name, company, emailformat, fulljob, linkpof):
 			time.sleep(1.5)
 			emails.append(email2)
 			fulljob = fulljob.replace(",", " ")
-			req = requests.get("https://haveibeenpwned.com/api/breachedaccount/"+email2+"?truncateResponse=true", headers=headers)
+			req = requests.get("https://hacked-emails.com/api?q="+email2+"title", headers=headers)
 			breach = str(req.content)
 			breach = breach.replace(",", " ")
 			try:
