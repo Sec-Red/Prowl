@@ -28,7 +28,7 @@ def welcome():
 | $$
 | $$
  \$$    \n         '''
-        print "Author: @MattSPickford"
+        print "Author: @MattSPickford  + Sec.Red"
         print "_"*50
         print ""
 welcome()
