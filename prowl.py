@@ -44,7 +44,7 @@ if (html != cversion):
                 print "Pr0wl is not up to date, updating..."
                 os.system("git fetch --all")
                 os.system("git reset --hard origin/master")
-                g = git.cmd.Git("https://github.com/pickfordmatt/Prowl")
+                g = git.cmd.Git("https://github.com/Sec-Red/Prowl")
         if Join == 'n':
                 pass
         print ""
