@@ -6,6 +6,9 @@ Prowl is an email harvesting tool that scrapes Yahoo for Linkedin profiles assoc
 ## What does this version do?
 This version uses the hacked-emails.com API instead of the HIBP API, meaning you get more data about breaches for OSINT tasks.
 
+## Hacked Emails API Down
+Due to GDPR, the API is currently down, but a fix is being worked on. 
+
 ## Install Instructions
 
 * git clone https://github.com/Sec-Red/prowl
